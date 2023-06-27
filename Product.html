@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dress Up | Products</title>
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/head_foot.css">
+    <link rel="icon" type="image/x-icon" href="favicon_io/favicon.ico">
+    <script src="script.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+
+    <header class="head">
+        <div class="navbar">
+            <div class="logo" id="blink">
+                <img src="logo/logoselect-removebg-preview.png" alt="" height="140" />
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html" width="30px">
+                            <h4>Home</h4>
+                        </a>
+                    </li>
+                    <li><a href="Product.html">
+                            <h4>Product</h4>
+                        </a>
+                    </li>
+                    <li><a href="Contact.html">
+                            <h4>Contact</h4>
+                        </a>
+
+                    </li>
+                    <li><a href="AboutUs.html">
+                            <h4>AboutUs</h4>
+                        </a>
+
+                    </li>
+                    <li>
+                        <section id="header">
+                            <img src="logo/shopping-cart-fill.png" alt="" height="25" id="cart-icon">
+                        </section>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Cart -->
+    <div class="cart">
+        <h2 class="cart-title">Your Cart </h2>
+
+        <!-- Content -->
+        <div class="cart-content">
+        </div>
+        <!-- Total -->
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">Rs.0</div>
+        </div>
+        <!-- Buy Button -->
+        <button type="button" class="btn-buy">Buy Now</button>
+        <!-- Cart Close  -->
+        <i class='bx bx-x' id="close-cart"></i>
+    </div>
+    </div>
+
+    <!-- Drop Down -->
+    <div class="container">
+        <button onclick="myFunction()" class="dropbtn">Filter</button>
+        <div id="myDropdown" class="dropdown-content">
+            <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+            <a href="#">All</a>
+            <a href="male.html">Male</a>
+            <a href="female.html">Female</a>
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <!-- products -->
+    <div class="products">
+        <div class="row1">
+
+            <div class="po1">
+
+                <img src="images/Men Printed Round Neck Green, White T-Shirt.webp" alt="" height="300"
+                    class="product-image">
+
+                <span class="text">
+                    Men Printed Round Neck Green,
+                    <br> White T-Shirt.</span>
+                <h4 class="prize">Rs.441</h4>
+                <span class="oldprize"> rs 1441</span>
+                <span class="off">70% off</span>
+                <br>
+                <button class="buy">BUY</button>
+            </div>
+            <div class="po5">
+                <img src="images/female/Women Color Block Round Neck Maroon, Black T-Shirt.webp" alt="" height="300"
+                    class="product-image">
+
+                <span class="text">Women Color Block Round Neck Maroon,
+                    <br> Black T-Shirt Shirt</span>
+                <h4 class="prize">Rs.400</h4>
+                <span class="oldprize"> rs 1441</span>
+                <span class="off">70% off</span>
+                <button class="buy">BUY</button>
+            </div>
+
+            <div class="po6">
+                <img src="images/men/TAHVO TAHVO men sherwani set Self Design Sherwani.webp" alt=""
+                    class="product-image">
+                <br>
+                <span class="text">TAHVO men sherwani set
+                    <br> Self Design Sherwani</span>
+                <h4 class="prize">Rs.385</h4>
+                <span class="oldprize"> rs 1441</span>
+
+
+                <span class="off">50% off</span>
+                <button class="buy">BUY</button>
+
+            </div>
+
+            <div class="po4">
+                <img src="images/female/Embellished Semi Stitched Lehenga Choli  (Pink).webp" alt="" height="300"
+                    class="product-image">
+                <br>
+                <span class="text">Embellished Semi Stitched
+                    <br> Lehenga Choli (Pink)</span>
+                <h4 class="prize">Rs.385</h4>
+                <span class="oldprize"> rs 1441</span>
+                <span class="off">50% off</span>
+                <button class="buy">BUY</button>
+            </div>
+
+        </div>
+
+
+        <div class="row2">
+
+            <div class="po1">
+                <img src="images/Men Regular Fit Self Design Mandarin Collar Casual Shirt.webp" alt="" height="300"
+                    class="product-image">
+
+                <span class="text">Men Regular Fit Self Design
+                    <br> Mandarin Collar Casual Shirt</span>
+                <h4 class="prize">Rs.385</h4>
+                <span class="oldprize"> rs 1441</span>
+                <span class="off">50% off</span>
+                <button class="buy">BUY</button>
+            </div>
+            <div class="po5">
+                <img src="images/female/Women Graphic Print Round Neck Grey T-Shirt.webp" alt="" height="300"
+                    class="product-image">
+
+                <span class="text">
+                    Women Graphic Print Round Neck
+                    <br> Grey T-Shirt
+                </span>
+                <h4 class="prize">Rs.385</h4>
+                <span class="oldprize"> rs 1441</span>
+                <span class="off">50% off</span>
+                <button class="buy">BUY</button>
+            </div>
+
+
+            <div class="po5">
+                <img src="images/female/Women Tie & Dye Round Neck Multicolor T-Shirt.webp" alt="" height="300"
+                    class="product-image">
+
+                <span class="text">Women Tie & Dye Round Neck
+                    <br> Multicolor T-Shirt.webp</span>
+                <h4 class="prize">Rs.385</h4>
+                <span class="oldprize"> rs 1441</span>
+                <span class="off">50% off</span>
+                <button class="buy">BUY</button>
+            </div>
+
+            <div class="po5">
+                <img src="images/female/Women Color Block Round Neck Maroon, Black T-Shirt.webp" alt="" height="300"
+                    class="product-image">
+
+                <span class="text">Women Color Block Round Neck Maroon,
+                    <br> Black T-Shirt Shirt</span>
+                <h4 class="prize">Rs.400</h4>https://github.com/vaishnavisanjaysonwane/Vaishnavi.git
+                <span class="oldprize"> rs 1441</span>
+                <span class="off">70% off</span>
+                <button class="buy">BUY</button>
+            </div>
+        </div>
+
+        <br><br>
+        <div class="row2">
+
+            <div class="po2">
+                <img src="images/Men Regular Fit Self Design Casual Shirt.webp" alt="" height="300"
+                    class="product-image">
+
+                <span class="text">Men Regular Fit Self Design
+                    <br> Casual Shirt</span>
+                <h4 class="prize">Rs.541</h4>
+                <span class="oldprize"> rs 1441</span>
+                <span class="off">50% off</span>
+                <button class="buy">BUY</button>
+            </div>
+            <div class="po2">
+                <img src="images/female/Women Fit and Flare Black Dress.webp" alt="" height="300" class="product-image">
+                <br>
+                <span class="text">Women Fit and Flare
+                    <br> Black Dress</span>
+                <h4 class="prize">Rs.385</h4>
+                <span class="oldprize"> rs 1441</span>
+                <span class="off">50% off</span>
+                <button class="buy">BUY</button>
+            </div>
+            <div class="po2">
+                <img src="images/female/Women Bodycon White, Black Dress.webp" alt="" height="300"
+                    class="product-image">
+                <br>
+                <span class="text">Women Bodycon White,
+                    <br> Black Dress
+                </span>
+                <h4 class="prize">Rs.385</h4>
+                <span class="oldprize"> rs 1441</span>
+                <span class="off">50% off</span>
+                <button class="buy">BUY</button>
+            </div>
+            <div class="po2">
+
+                <img src="images/female/Women Bodycon Light Blue, Black Dress.webp" alt="" height="300"
+                    class="product-image">
+                <br>
+                <span class="text">Women Bodycon Light Blue,
+                    <br> Black Dress</span>
+                <h4 class="prize">Rs.385</h4>
+                <span class="oldprize"> rs 1441</span>
+                <span class="off">50% off</span>
+                <button class="buy">BUY</button>
+            </div>
+
+        </div>
+
+        <br><br>
+        <div class="row3">
+
+
+            <div class="po3">
+                <img src="images/men/3xl-tux-darkbluesuiting-5b-oora-original-imafpfx39sxmacea.webp" alt="" height="300"
+                    class="product-image">
+                <br>
+                <span class="text">men/3xl-tux-darkbluesuiting</span>
+                <h4 class="prize">Rs.385</h4>
+                <span class="oldprize"> rs 1441</span>
+                <span class="off">50% off</span>
+                <button class="buy">BUY</button>
+            </div>
+            <div class="po3">
+                <img src="images/men/Men 2 Piece Suit Checkered Suit.webp" alt="" height="300" class="product-image">
+                <br>
+                <span class="text">Men 2 Piece Suit Checkered Suit</span>
+                <h4 class="prize">Rs.385</h4>
+                <span class="oldprize"> rs 1441</span>
+                <span class="off">50% off</span>
+                <button class="buy">BUY</button>
+            </div>
+            <div class="po3">
+
+                <img src="images/men/Men Suits Textured Suit.webp" alt="" height="300" class="product-image">
+                <br>
+                <span class="text">Men Suits Textured Suit
+                </span>
+                <h4 class="prize">Rs.385</h4>
+                <span class="oldprize"> rs 1441</span>
+                <span class="off">50% off</span>
+                <button class="buy">BUY</button>
+
+            </div>
+            <div class="po3">
+                <img src="images/men/Men 2 Piece Suit Checkered Suit.webp" alt="" height="300" class="product-image">
+                <br>
+                <span class="text">Men 2 Piece Suit Checkered Suit</span>
+                <h4 class="prize">Rs.385</h4>
+                <span class="oldprize"> rs 1441</span>
+                <span class="off">50% off</span>
+                <button class="buy">BUY</button>
+            </div>
+        </div>
+        <br><br>
+
+        <div class="row4">
+
+            <div class="po1">
+                <img src="images/Men Regular Fit Self Design Mandarin Collar Casual Shirt.webp" alt="" height="300"
+                    class="product-image">
+
+                <span class="text">Men Regular Fit Self Design
+                    <br> Mandarin Collar Casual Shirt</span>
+                <h4 class="prize">Rs.385</h4>
+                <span class="oldprize"> rs 1441</span>
+                <span class="off">50% off</span>
+                <button class="buy">BUY</button>
+            </div>
+            <div class="po4">
+                <img src="images/female/Embroidered Semi Stitched Lehenga Choli  (Multicolor).webp" alt="" height="300"
+                    class="product-image">
+                <br>
+                <span class="text">Embroidered Semi Stitched
+                    <br> Lehenga Choli (Multicolor)</span>
+                <h4 class="prize">Rs.385</h4>
+                <span class="oldprize"> rs 1441</span>
+                <span class="off">50% off</span>
+                <button class="buy">BUY</button>
+            </div>
+            <div class="po4">
+                <img src="images/female/Floral Print Semi Stitched Lehenga Choli  (Blue).webp" alt="" height="300"
+                    class="product-image">
+                <br>
+                <span class="text">Floral Print Semi Stitched
+                    <br> Lehenga Choli (Blue)</span>
+                <h4 class="prize">Rs.385</h4>
+                <span class="oldprize"> rs 1441</span>
+                <span class="off">50% off</span>
+                <button class="buy">BUY</button>
+
+            </div>
+            <div class="po4">
+                <img src="images/female/Embellished Semi Stitched Lehenga Choli  (Pink).webp" alt="" height="300"
+                    class="product-image">
+                <br>
+                <span class="text">Embellished Semi Stitched
+                    <br> Lehenga Choli (Pink)</span>
+                <h4 class="prize">Rs.385</h4>
+                <span class="oldprize"> rs 1441</span>
+                <span class="off">50% off</span>
+                <button class="buy">BUY</button>
+            </div>
+        </div>
+
+        <div class="row6">
+            <div class="po6">
+                <img src="images/men/DEYANN Solid Sherwani.webp" alt="" class="product-image">
+                <br>
+                <span class="text">DEYANN Solid Sherwani</span>
+                <h4 class="prize">Rs.385</h4>
+                <span class="oldprize"> rs 1441</span>
+                <span class="off">50% off</span>
+                <button class="buy">BUY</button>
+            </div>
+            <div class="po6">
+                <img src="images/men/Mentoos Indo Western Achkan Kurta With Pyjama Set Solid Sherwani.webp" alt=""
+                    class="product-image">
+                <br>
+                <span class="text">Mentoos Indo Western Achkan Kurta
+                    <br> With Pyjama Set Solid Sherwani</span>
+                <h4 class="prize">Rs.385</h4>
+                <span class="oldprize"> rs 1441</span>
+                <span class="off">50% off</span>
+                <button class="buy">BUY</button>
+            </div>
+            <div class="po6">
+                <img src="images/men/TAHVO TAHVO men sherwani set Self Design Sherwani.webp" alt=""
+                    class="product-image">
+                <br>
+                <span class="text">TAHVO men sherwani set
+                    <br> Self Design Sherwani</span>
+                <h4 class="prize">Rs.385</h4>
+                <span class="oldprize"> rs 1441</span>
+
+
+                <span class="off">50% off</span>
+                <button class="buy">BUY</button>
+
+            </div>
+            <div class="po6">
+                <img src="images/men/DEYANN Solid Sherwani.webp" alt="" class="product-image">
+                <br>
+                <span class="text">DEYANN Solid Sherwani</span>
+                <h4 class="prize">Rs.385</h4>
+                <span class="oldprize"> rs 1441</span>
+                <span class="off">50% off</span>
+                <button class="buy">BUY</button>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container1">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Our Services</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Affiliated Program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Get Help</h4>
+                    <ul>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Shipping</a></li>
+                        <li><a href="">Return</a></li>
+                        <li><a href="">Order Status</a></li>
+                        <li><a href="">Payment Option</a></li>
+                        <li><a href="">Report Fake Shop</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Online Shoping</h4>
+                    <ul>
+                        <li><a href="">Men's T-shirt</a></li>
+                        <li><a href="">Men's Casual</a></li>
+                        <li><a href="">Women's Sarees</a></li>
+                        <li><a href="">Women's Tops</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href=""><i class="ri-facebook-circle-fill"></i></a>
+                        <a href=""><i class="ri-instagram-fill"></i></a>
+                        <a href=""><i class="ri-linkedin-box-fill"></i></a>
+                        <a href=""><i class="ri-twitter-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
